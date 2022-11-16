@@ -16,7 +16,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 2. Create the config directory `~/.config/nvim/`.
 3. Clone this repo into the config folder.
 ```
-git clone some_repo ./
+git clone https://github.com/nirvanadev/osx-neovim-webdev-conf.git ~/.config/nvim/
 ```
 4. Start neovim for the first time and install plugins.
 ```
